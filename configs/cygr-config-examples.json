@@ -1,0 +1,32 @@
+{
+    "config": {
+        "BOL_token": "♯℗",
+        "EOL_token": "℗♯",
+        "exceptions": [],
+        "vowel_mappings": {
+            "έ": "ε", 
+            "ό": "ο", 
+            "ή": "η", 
+            "ώ": "ω", 
+            "ά": "α", 
+            "ί": "ι", 
+            "ύ": "υ", 
+            "ὄ": "ὀ", 
+            "ΐ": "ϊ", 
+            "ΰ": "ϋ", 
+            "Έ": "Ε", 
+            "Ό": "Ο", 
+            "Ή": "Η", 
+            "Ώ": "Ω", 
+            "Ά": "Α", 
+            "Ί": "Ι", 
+            "Ύ": "Υ", 
+            "Ὄ": "Ὀ"
+        },
+        "rules_list": ["1-smooth-cygr-small.xlsx", "2-corrections-cygr-small.xlsx", "3-restore-cygr-small.xlsx"],
+        "documents": ["cygr-example.docx"],
+        "is_word_doc": true,
+        "data_path": "../texts/",
+        "rules_path": "../spelling-normalizer/"
+    }
+}
