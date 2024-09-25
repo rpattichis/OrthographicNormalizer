@@ -17,7 +17,7 @@ Before running the normalizer, use the following examples to create your own fil
     - is_word_doc (bool): Set to true to indication we are dealing with .docx.
     - data_path (str): The path where the documents are stored.
     - rules_path (str): The path where the rule files are stored.
-2. **spelling-normalizer/*.xslx:** In our implementation, there are three Excel files corresponding to the rules outlined below. All files are expected to have two columns, titled 'Find' and 'Replace', respectively. 
+2. **spelling-normalizer/*.xlsx:** In our implementation, there are three Excel files corresponding to the rules outlined below. All files are expected to have two columns, titled 'Find' and 'Replace', respectively. 
     - **1-smooth**: Meant to remove any emojis, lowercase all letters, and remove any extra spaces.
     - **2-corrections**: The biggest rule file with the actual normalization rules. See our example file for guidance, or reach out through email if you have any questions.
     - **3-restore**: Reverses the smoothing rules by restoring the casing of letters.
