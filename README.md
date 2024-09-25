@@ -25,6 +25,13 @@ Before running the normalizer, use the following examples to create your own fil
 
 ## Running Code
 
-Once all other files are set up, run the following line of code in your terminal:
+Note that there are CyGr-specific implementations that you might want to edit in the NormalizeText class. Specifically, we assume there are only three normalization files. This means we:
+
+- pad each line at the very beginning (first thing done during the first iteration of the for loop), and
+- apply the second stress removal after the smoothing file (second iteration of the for loop).
+
+If your use case is different, please change the for loop code in the `__FaR_helper__` function accordingly.
+
+Once you've set up all other files and customized your code, run the following line of code in your terminal:
 
 > `python findandreplace.py -c ../configs/{CONFIG_FILENAME}`
