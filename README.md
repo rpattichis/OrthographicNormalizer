@@ -34,4 +34,4 @@ If your use case is different, please change the for loop code in the `__FaR_hel
 
 Once you've set up all other files and customized your code, run the following line of code in your terminal:
 
-> `python findandreplace.py -c ../configs/{CONFIG_FILENAME}`
+`python findandreplace.py -c ../configs/{CONFIG_FILENAME}`
