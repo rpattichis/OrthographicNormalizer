@@ -35,3 +35,16 @@ If your use case is different, please change the for loop code in the `__FaR_hel
 Once you've set up all other files and customized your code, run the following line of code in your terminal:
 
 `python findandreplace.py -c ../configs/{CONFIG_FILENAME}`
+
+## Citing
+
+```
+@misc{Pattichis2024normalizer,
+  author = {Pattichis, R. and Armostis, S.},
+  title = {Find and Replace for Orthographic Normalization},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/rpattichis/OrthographicNormalizer}}
+}
+```
